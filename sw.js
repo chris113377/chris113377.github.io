@@ -16,9 +16,11 @@ const filesToCache = [
   "https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap",
   "https://placekitten.com/225/175",
   "https://placekitten.com/224/175",
-  "https://placekitten.com/226/175"
+  "https://placekitten.com/226/175",
+  "http://placekitten.com/120/120",
+  "http://placekitten.com/121/121",
+  "http://placekitten.com/122/122"
 ];
-
 
 
 self.addEventListener('install', function(event) {
