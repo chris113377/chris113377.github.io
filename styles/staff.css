@@ -1,0 +1,96 @@
+section.phasellus {
+  background-image: linear-gradient(to right, #a1d3b0, #f6f1d3);
+  color: #648880;
+  text-align: center;
+  padding: 25px;
+}
+.phasellus h2 {
+  margin-top: 0;
+  font-weight: 300;
+}
+
+.phasellus p {
+  max-width: 900px;
+  margin: auto;
+}
+
+main {
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+}
+
+.content {
+  color: #648880;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.content h3 {
+  font-weight: 300;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.content h4 {
+  font-weight: 400;
+  font-size: 11px;
+}
+
+div.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.box {
+  border: 1px solid #b8c6d4;
+  max-width: 280px;
+  width: 100%;
+  position: relative;
+  height: 160px;
+  border-radius: 5px;
+  margin: 60px auto 0;
+}
+
+div.box img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+p.one {
+  padding-top: 70px;
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
+}
+
+p.two {
+  text-align: center;
+  margin: 0;
+}
+
+
+p.paragraph {
+  text-align: justify;
+  font-weight: 300;
+}
+
+@media only screen and (min-width: 1000px) {
+
+  .staff-paragraph {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .flex-box {
+    justify-content: space-between;    
+  }
+
+  div.box {
+    top: -40px;
+  }
+}
+

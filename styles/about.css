@@ -1,0 +1,47 @@
+.section-main {
+  text-align: center;
+  width: 100%;
+  padding: 25px;
+  color: #648880;
+  background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+}
+
+.section-main h2 {
+  margin-top: 0;
+  font-weight: 300;
+}
+
+.section-main p {
+  max-width: 900px;
+  margin: auto;
+}
+
+main {
+  max-width: 960px;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.section-article {
+  margin: 0 10px;
+  color: #648880;
+}
+
+.article-two h2,
+.article-one h2 {
+  font-weight: 300;
+}
+
+@media only screen and (min-width: 433px) {
+  
+}
+
+@media only screen and (min-width: 645px) {
+  
+}
+
+@media only screen and (min-width: 1085px) {
+  main {
+    margin: auto;
+  } 
+}
